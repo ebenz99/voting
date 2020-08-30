@@ -21,7 +21,7 @@ class StepMatrix extends Component {
 
   render() {
     return (
-      <div class='card-matrix'>
+      <div className='card-matrix'>
         { this.createCards() }
       </div>
     );

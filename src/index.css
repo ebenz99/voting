@@ -14,15 +14,38 @@ h1 {
   text-align: center;
 }
 
+.splash {
+
+  /* width: 100vw; */
+  height: 100vh;
+  background-image: url("images/scflag.svg");
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .splash {
+    background-attachment: scroll;
+  }
+}
+
+#root {
+  height: 91vh;
+}
+
 .bottom {
-  position: absolute;
-  bottom: 0px;
-  height: 4vh;
+  height: 9vh;
   background-color: gray;
   width: 100%;
+  position: absolute;
 }
 
 .bottom-text {
   font-size: 2vh;
   font-family: sans-serif;
+  text-align: center;
+  color: #333333
 }

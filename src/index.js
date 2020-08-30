@@ -4,6 +4,7 @@ import './index.css';
 import StepMatrix from './StepMatrix';
 import * as serviceWorker from './serviceWorker';
 import './fonts/Roboto-Regular.ttf'
+import './images/scflag.svg'
 
 
 ReactDOM.render(
