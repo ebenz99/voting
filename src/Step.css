@@ -23,13 +23,16 @@
             width: auto;
         }
     } */
+
 .Step {
-  margin-top: 3%;
+  margin: 3%;
+  width: 30%;
+  float: left;
 }
 
 .container {
   margin-left: 5%;
-  width: 30%;
+  width: 100%;
 }
 
 .container-head {
