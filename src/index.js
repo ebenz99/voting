@@ -8,6 +8,8 @@ ReactDOM.render(
   <React.StrictMode>
     <Step />
     <Step />
+    <Step />
+    <Step />
   </React.StrictMode>,
   document.getElementById('root')
 );
