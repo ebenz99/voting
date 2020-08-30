@@ -10,7 +10,7 @@ class Header extends Component {
   // for fade in/out without lag
   componentDidMount () {
      window.onscroll =()=>{
-      const newScrollHeight = 20 * Math.pow(Math.floor(window.scrollY / 30), 2);
+      const newScrollHeight = 80 * Math.pow(Math.floor(window.scrollY / 50),1);
       if (this.state.currentScrollHeight != newScrollHeight){
           this.setState({currentScrollHeight: newScrollHeight})
       }
@@ -20,8 +20,13 @@ class Header extends Component {
   render() {
     const opacity = Math.min(100 / this.state.currentScrollHeight  , 1);
     return (
-      <div style={{zIndex:0}} class="title-container">
-        <h1 style={{opacity}}  >Quickstart SC Vote</h1>
+      <div>
+        <div style={{zIndex:0}} className="title-container-shadow">
+          <h1  class='title-shadow' style={{opacity}}>Quickstart SC Vote</h1>
+        </div>
+        <div style={{zIndex:0}} className="title-container">
+          <h1 class='title' style={{opacity}}>Quickstart SC Vote</h1>
+        </div>
       </div>
     );
   }

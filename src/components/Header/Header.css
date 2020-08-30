@@ -1,6 +1,6 @@
-h1 {
+.title {
   text-align: center;
-  color: #9021fc;
+  color: #9021fc; /*CB66DE*/
   font-size: 15vh;
   margin: 0;
   z-index: -1;
@@ -10,5 +10,20 @@ h1 {
   position: fixed;
   left: 50%;
   top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title-shadow {
+  text-align: center;
+  color: #eeeeee; /*CB66DE*/
+  font-size: 15vh;
+  margin: 0;
+  z-index: 0;
+}
+
+.title-container-shadow {
+  position: fixed;
+  left: 50.8%;
+  top: 50.8%;
   transform: translate(-50%, -50%);
 }
