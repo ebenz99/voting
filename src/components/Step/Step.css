@@ -25,7 +25,7 @@
 }
 
 .card-head {
-  background-color: gray;
+  background-color: #dddddd;
   width: 100%;
   display: block;
   float: left;
@@ -40,7 +40,7 @@
 }
 
 .card-body {
-  background-color: orange;
+  background-color: #fed8b1;
   width: 100%;
   display: block;
   float: left;

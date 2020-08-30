@@ -8,40 +8,23 @@ body {
   font-family: 'Roboto';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: white;
 }
 
-h1 {
-  text-align: center;
-  color: #9021fc;
-  font-size: 15vh;
-  margin: 0;
-
-}
-
-.title-container {
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.splash {
-
-  /* width: 100vw; */
+#splash {
   height: 100vh;
   background-image: url("images/scflag.svg");
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-@media only screen and (max-device-width: 1366px) {
+/* @media only screen and (max-device-width: 1366px) {
   .splash {
     background-attachment: scroll;
   }
-}
+} */
 
 #root {
   height: 91vh;
