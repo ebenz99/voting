@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import StepMatrix from './StepMatrix';
+import StepMatrix from './components/StepMatrix/StepMatrix';
 import * as serviceWorker from './serviceWorker';
 import './fonts/Roboto-Regular.ttf'
 import './images/scflag.svg'

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './StepMatrix.css';
-import Step from './Step';
+import Step from '../Step/Step';
 
 class StepMatrix extends Component {
   constructor(props) {
