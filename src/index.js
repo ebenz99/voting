@@ -10,7 +10,7 @@ import './images/scflag.svg'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header/>
+    <Header text="Let's vote!"/>
   </React.StrictMode>,
   document.getElementById('splash')
 );

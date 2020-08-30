@@ -4,7 +4,11 @@ import './Header.css';
 class Header extends Component {
   constructor(props) {
     super(props);
-    this.state = {opacity: 0};
+    this.state = {
+      opacity: 0,
+      text: props.text
+    };
+
   }
 
   // for fade in/out without lag
@@ -22,10 +26,10 @@ class Header extends Component {
     return (
       <div>
         <div style={{zIndex:0}} className="title-container-shadow">
-          <h1  class='title-shadow' style={{opacity}}>Quickstart SC Vote</h1>
+          <h1  class='title-shadow' style={{opacity}}>{this.state.text}</h1>
         </div>
         <div style={{zIndex:0}} className="title-container">
-          <h1 class='title' style={{opacity}}>Quickstart SC Vote</h1>
+          <h1 class='title' style={{opacity}}>{this.state.text}</h1>
         </div>
       </div>
     );
