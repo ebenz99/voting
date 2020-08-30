@@ -4,13 +4,13 @@ import './Step.css';
 
 function Step() {
   return (
-    <div className="Step">
-      <div class="container">
-        <div class="container-head">
-          <p class="container-head-text"> Register </p>
+    <div className="card-holder">
+      <div class="card">
+        <div class="card-head">
+          <p class="card-head-text"> Register </p>
         </div>
-        <div class="container-body">
-          <p class="container-body-text"> Hello </p>
+        <div class="card-body">
+          <p class="card-body-text"> Hello </p>
         </div>
       </div>
     </div>
