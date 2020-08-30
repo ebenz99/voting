@@ -4,10 +4,10 @@ import './Step.css';
 
 function Step() {
   return (
-    <div className="App">
+    <div className="Step">
       <div class="container">
         <div class="container-head">
-          <p class="container-head-text"> Hi </p>
+          <p class="container-head-text"> Register </p>
         </div>
         <div class="container-body">
           <p class="container-body-text"> Hello </p>

@@ -23,11 +23,13 @@
             width: auto;
         }
     } */
+.Step {
+  margin-top: 3%;
+}
 
 .container {
-  background-color: purple;
   margin-left: 5%;
-  width: 70%;
+  width: 30%;
 }
 
 .container-head {
@@ -35,10 +37,14 @@
   width: 100%;
   display: block;
   float: left;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .container-head-text {
-  margin:0;
+  margin-bottom: 1vh;
+  margin-top: 1vh;
+  text-align: center;
+  font-size: 6vh;
 }
 
 .container-body {
@@ -46,6 +52,8 @@
   width: 100%;
   display: block;
   float: left;
+  height: 20vh;
+  border-radius: 0px 0px 30px 5px;
 }
 
 .container-body-text {
