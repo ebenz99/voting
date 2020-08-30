@@ -8,9 +8,9 @@ class StepMatrix extends Component {
   }
 
   createCards(){
-    const stepNames = ['Register', 'Absentee', 'More', 'More2'];
-    const descriptions = ['Wow!','Neato!','Sweet!','This is rad!']
-    const urls = ['https://www.google.com', 'https://www.bing.com', 'https://www.kia.com', 'https://www.ethanbensman.com'];
+    const stepNames = ["Check Registration", 'Register Online', 'Request an Absentee Ballot', 'More2'];
+    const descriptions = ["If you're not sure if you're already registered to vote in SC, click here","Deadline: October 4th", "Request by Oct 5th to guarantee delivery by election day",'This is rad!']
+    const urls = ['https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo', 'https://info.scvotes.sc.gov/eng/ovr/start.aspx', 'https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=AbsenteeRequest', 'https://www.ethanbensman.com'];
     const items = []
 
     for (const [index, value] of stepNames.entries()) {

@@ -36,7 +36,7 @@
   margin-bottom: 1vh;
   margin-top: 1vh;
   text-align: center;
-  font-size: 6vh;
+  font-size: 3vh;
 }
 
 .card-body {
@@ -49,6 +49,6 @@
 }
 
 .card-body-text {
-  margin:0;
+  margin:5%;
   font-size: 3vh;
 }
