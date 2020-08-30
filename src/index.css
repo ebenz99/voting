@@ -8,7 +8,8 @@ body {
   font-family: 'Roboto';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: white;
+  background-color: #fed8b1;
+
 }
 
 #splash {
@@ -28,6 +29,9 @@ body {
 
 #root {
   height: 91vh;
+  background-color: white;
+  position: relative;
+  z-index: 2;
 }
 
 .bottom {

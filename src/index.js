@@ -10,17 +10,19 @@ import './images/scflag.svg'
 
 ReactDOM.render(
   <React.StrictMode>
+    <Header/>
+  </React.StrictMode>,
+  document.getElementById('splash')
+);
+
+
+ReactDOM.render(
+  <React.StrictMode>
     <StepMatrix/>
   </React.StrictMode>,
   document.getElementById('root')
 );
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Header/>
-  </React.StrictMode>,
-  document.getElementById('splash')
-);
 
 
 
