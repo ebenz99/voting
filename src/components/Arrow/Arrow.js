@@ -13,6 +13,9 @@ class Arrow extends Component {
       width: props.w,
       height:  props.h,
     };
+    if (props.mobile){
+      this.arrowState.display = "none";
+    }
   }
 
   render() {

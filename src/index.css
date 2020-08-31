@@ -11,22 +11,33 @@ html {
   scroll-behavior: smooth;
 }
 
+
 body {
   margin: 0;
   font-family: 'Roboto';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fed8b1;
-
 }
 
 #splash {
   height: 100vh;
-  background-image: url("images/scflag.svg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  #splash {
+    background-color: #fed8b1;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  #splash {
+    background-image: url("images/scflag.svg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
 
 svg:hover {
@@ -40,10 +51,21 @@ svg {
   width: 10vh;
   bottom: 10vh;
   position: fixed;
-  left: 48%;
-  transform: translate(0%, -50%);
   fill: #9021fc;
   transition: .2s;
+  transform: translate(0%, -50%);
+}
+
+@media only screen and (max-width: 600px) {
+  svg {
+    left: 43%;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  svg {
+    left: 48%;
+  }
 }
 
 #root {
@@ -55,6 +77,7 @@ svg {
   overflow-x: hidden;
 }
 
+
 #step-heading {
   margin: 0;
   padding-top: 7vh;
@@ -63,6 +86,23 @@ svg {
   font-size: 8vh;
   text-decoration: underline;
 }
+
+@media only screen and (max-width: 600px) {
+  #step-heading {
+    margin-bottom: 10vh;
+  }
+}
+
+/* @media only screen and (min-width: 601px) {
+  #splash {
+    background-image: url("images/scflag.svg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+} */
+
+
 
 .resp {
   text-align: center;
