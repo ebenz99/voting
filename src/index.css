@@ -51,6 +51,8 @@ svg {
   background-color: #bbbbbb;
   position: relative;
   z-index: 2;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 #step-heading {
