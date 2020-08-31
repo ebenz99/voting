@@ -15,6 +15,9 @@ import './images/scflag.svg';
 import './images/firstArrow.svg';
 import './images/noArrow.svg';
 import './images/yesArrow.svg';
+import './images/inPersonArrow.svg';
+import './images/absenteeArrow.svg';
+import './images/sentArrow.svg';
 
 
 ReactDOM.render(
@@ -28,12 +31,18 @@ ReactDOM.render(
 ReactDOM.render(
   <React.StrictMode>
     <h1 id="step-heading">How to Vote</h1>
-    <div class="firstArrow"></div>
-    <Step name={'hi'} description={'testing'} url='https://google.com' ml='13vw' mt='7vh'/>
+    <Step name={'Are you registered'} description={'click here to check'} url='https://google.com' ml='13vw' mt='7vh'/>
     <div style={{marginTop:"12vh", marginLeft:"51vw"}} class ='resp'>No</div>
     <div class="noArrow"></div>
     <Step name={'hi'} description={'testing'} url='https://google.com' ml='20vw' mt='9vh'/>
     <div class="yesArrow"></div>
+    <Step name={'How do you want to vote?'} description={'testing'} url='https://google.com' ml='30vw' mt='15vh'/>
+    <div class="registeredArrow"></div>
+    <div class="absenteeArrow"></div>
+    <div class="inPersonArrow"></div>
+    <Step name={'Absentee'} description={"You're all set!"} url='https://google.com' ml='11vw' mt='20vh'/>
+    <div class="sentArrow"></div>
+    <Step name={'VOTE!'} description={"You're all set!"} url='https://google.com' ml='19vw' mt='33vh'/>
   </React.StrictMode>,
   document.getElementById('root')
 );

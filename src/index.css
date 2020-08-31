@@ -47,7 +47,7 @@ svg {
 }
 
 #root {
-  height: 200vh;
+  height: 160vh;
   background-color: #bbbbbb;
   position: relative;
   z-index: 2;
