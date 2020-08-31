@@ -58,6 +58,8 @@ svg {
   padding-top: 7vh;
   text-align: center;
   color: white;
+  font-size: 8vh;
+  text-decoration: underline;
 }
 
 .resp {

@@ -1,1 +1,8 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 139.07 75.17"><defs><style>.cls-1{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:4px;stroke-dasharray:12 12;}.cls-2{fill:#fff;}</style></defs><title>sentArrow</title><path class="cls-1" d="M59.85,70.34c42.35.61,64.69,14.1,77.35,27.05,7.93,8.12,19.13,23.24,37.54,27.68" transform="translate(-59.82 -68.34)"/><path class="cls-2" d="M198.89,124.47c-11.36,4.22-25.45,11.42-34.18,19.05l6.87-19-6.9-19C173.42,113.08,187.52,120.26,198.89,124.47Z" transform="translate(-59.82 -68.34)"/></svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 139.07 75.17">
+  <defs>
+    <style>.cls-1{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:4px;stroke-dasharray:12 12;}.cls-2{fill:#fff;}</style>
+  </defs>
+  <title>sentArrow</title>
+  <path class="cls-1" d="M59.85,70.34c42.35.61,64.69,14.1,77.35,27.05,7.93,8.12,19.13,23.24,37.54,27.68" transform="translate(-59.82 -68.34)"/>
+  <path class="cls-2" d="M198.89,124.47c-11.36,4.22-25.45,11.42-34.18,19.05l6.87-19-6.9-19C173.42,113.08,187.52,120.26,198.89,124.47Z" transform="translate(-59.82 -68.34)"/>
+</svg>
