@@ -25,10 +25,27 @@ body {
   background-size: cover;
 }
 
-.arrow {
-  height: 10vh;
-  background-image: url("images/whiteArrow.svg");
+.firstArrow {
+  width: 10vh;
+  height: 100%;
+  background-image: url("images/firstArrow.svg");
   background-repeat: no-repeat;
+  margin-left: 7vw;
+  margin-right: 0%;
+  margin-bottom: 0%;
+  position: absolute;
+}
+
+.noArrow {
+  width: 20vw;
+  height: 10vh;
+  background-image: url("images/noArrow.svg");
+  background-repeat: no-repeat;
+  margin-left: 43vw;
+  margin-top: 18vh;
+  margin-right: 0%;
+  margin-bottom: 0%;
+  position: absolute;
 }
 
 svg:hover {
@@ -55,7 +72,7 @@ svg {
 } */
 
 #root {
-  height: 91vh;
+  height: 100vh;
   background-color: #bbbbbb;
   position: relative;
   z-index: 2;

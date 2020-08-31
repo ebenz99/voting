@@ -14,7 +14,8 @@ class StepMatrix extends Component {
     const items = []
 
     for (const [index, value] of stepNames.entries()) {
-      items.push(<Step name={value} description={descriptions[index]} url={urls[index]} />)
+      items.push(<Step name={value} description={descriptions[index]} url={urls[index]} />);
+      break;
     }
     return items;
   }
