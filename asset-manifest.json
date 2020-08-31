@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/voting/static/css/main.723e41cc.chunk.css",
+    "main.js": "/voting/static/js/main.27a0fc5a.chunk.js",
+    "main.js.map": "/voting/static/js/main.27a0fc5a.chunk.js.map",
+    "runtime-main.js": "/voting/static/js/runtime-main.f0d70bed.js",
+    "runtime-main.js.map": "/voting/static/js/runtime-main.f0d70bed.js.map",
+    "static/js/2.505ee47b.chunk.js": "/voting/static/js/2.505ee47b.chunk.js",
+    "static/js/2.505ee47b.chunk.js.map": "/voting/static/js/2.505ee47b.chunk.js.map",
+    "index.html": "/voting/index.html",
+    "precache-manifest.1400cc9472a1a5c424658c5fcf9e55b2.js": "/voting/precache-manifest.1400cc9472a1a5c424658c5fcf9e55b2.js",
+    "service-worker.js": "/voting/service-worker.js",
+    "static/css/main.723e41cc.chunk.css.map": "/voting/static/css/main.723e41cc.chunk.css.map",
+    "static/js/2.505ee47b.chunk.js.LICENSE.txt": "/voting/static/js/2.505ee47b.chunk.js.LICENSE.txt",
+    "static/media/Roboto-Bold.ttf": "/voting/static/media/Roboto-Bold.e07df86c.ttf",
+    "static/media/Roboto-Regular.ttf": "/voting/static/media/Roboto-Regular.11eabca2.ttf",
+    "static/media/absenteeArrow.svg": "/voting/static/media/absenteeArrow.5ea802ed.svg",
+    "static/media/firstArrow.svg": "/voting/static/media/firstArrow.0eb588d3.svg",
+    "static/media/inPersonArrow.svg": "/voting/static/media/inPersonArrow.06915e58.svg",
+    "static/media/noArrow.svg": "/voting/static/media/noArrow.fa9de17f.svg",
+    "static/media/registeredArrow.svg": "/voting/static/media/registeredArrow.f32c8eb6.svg",
+    "static/media/index.css": "/voting/static/media/scflag.1cdcae68.svg",
+    "static/media/sentArrow.svg": "/voting/static/media/sentArrow.ad12e3a7.svg",
+    "static/media/yesArrow.svg": "/voting/static/media/yesArrow.2d5ea573.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f0d70bed.js",
+    "static/js/2.505ee47b.chunk.js",
+    "static/css/main.723e41cc.chunk.css",
+    "static/js/main.27a0fc5a.chunk.js"
+  ]
+}
