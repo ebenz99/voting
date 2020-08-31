@@ -3,6 +3,10 @@
   src: local('Roboto'), url(./fonts/Roboto-Regular.ttf) format('truetype');
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: 'Roboto';
@@ -19,6 +23,12 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.arrow {
+  height: 10vh;
+  background-image: url("images/whiteArrow.svg");
+  background-repeat: no-repeat;
 }
 
 svg:hover {
@@ -46,7 +56,7 @@ svg {
 
 #root {
   height: 91vh;
-  background-color: white;
+  background-color: #bbbbbb;
   position: relative;
   z-index: 2;
 }
@@ -55,6 +65,7 @@ svg {
   margin: 0;
   padding-top: 7vh;
   text-align: center;
+  color: white;
 }
 
 .bottom {

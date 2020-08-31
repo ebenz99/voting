@@ -4,9 +4,9 @@ import './index.css';
 import StepMatrix from './components/StepMatrix/StepMatrix';
 import Header from './components/Header/Header';
 import * as serviceWorker from './serviceWorker';
-import './fonts/Roboto-Regular.ttf'
-import './images/scflag.svg'
-import './images/arrows.svg'
+import './fonts/Roboto-Regular.ttf';
+import './images/scflag.svg';
+import './images/whiteArrow.svg';
 
 
 ReactDOM.render(
@@ -19,11 +19,14 @@ ReactDOM.render(
 
 ReactDOM.render(
   <React.StrictMode>
-    <h1 id="step-heading">Steps</h1>
+    <h1 id="step-heading">How to Vote</h1>
     <StepMatrix/>
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+
+// <div class="arrow"></div>
 
 
 // If you want your app to work offline and load faster, you can change

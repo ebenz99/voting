@@ -3,7 +3,7 @@
     } */
 
 .card-holder {
-  margin: 7vh 5% 7vh 5%;
+  margin: 7vh 5% 2vh 5%;
   width: 40%;
   float: left;
   position: relative;
@@ -35,7 +35,8 @@
 .card-head-text {
   margin-bottom: 1vh;
   margin-top: 1vh;
-  text-align: center;
+  margin-left: 5%;
+  /* text-align: center; */
   font-size: 3vh;
 }
 
