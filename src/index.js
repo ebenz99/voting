@@ -6,6 +6,7 @@ import Header from './components/Header/Header';
 import * as serviceWorker from './serviceWorker';
 import './fonts/Roboto-Regular.ttf'
 import './images/scflag.svg'
+import './images/arrows.svg'
 
 
 ReactDOM.render(
@@ -18,13 +19,11 @@ ReactDOM.render(
 
 ReactDOM.render(
   <React.StrictMode>
+    <h1 id="step-heading">Steps</h1>
     <StepMatrix/>
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-
-
 
 
 // If you want your app to work offline and load faster, you can change

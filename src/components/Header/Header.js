@@ -36,5 +36,4 @@ class Header extends Component {
   }
 }
 
-// <div style={{opacity}} id='element-you-want-to-fade'> </div>
 export default Header;

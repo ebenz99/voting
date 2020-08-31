@@ -21,6 +21,23 @@ body {
   background-size: cover;
 }
 
+svg:hover {
+  fill: #cccccc;
+  cursor: pointer;
+  transition: .2s;
+}
+
+svg {
+  height: 10vh;
+  width: 10vh;
+  bottom: 10vh;
+  position: fixed;
+  left: 48%;
+  transform: translate(0%, -50%);
+  fill: #9021fc;
+  transition: .2s;
+}
+
 /* @media only screen and (max-device-width: 1366px) {
   .splash {
     background-attachment: scroll;
@@ -32,6 +49,12 @@ body {
   background-color: white;
   position: relative;
   z-index: 2;
+}
+
+#step-heading {
+  margin: 0;
+  padding-top: 7vh;
+  text-align: center;
 }
 
 .bottom {
