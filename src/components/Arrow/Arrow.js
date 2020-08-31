@@ -1,33 +1,37 @@
+// UNUSED Component
+// IN THE WORKS TO MAKE THIS WORK
+
+// want to be callable like  <Arrow fileName="./images/yesArrow.svg" w="100vw" h="16vh" ml="33vw" mt="33vh"/>
+//issues with loading image in component
+
 import React, { Component } from 'react';
 import './Arrow.css';
+
+// import './images/firstArrow.svg';
+// import './images/noArrow.svg';
+// import './images/inPersonArrow.svg';
+// import './images/absenteeArrow.svg';
+// import './images/sentArrow.svg';
+
 
 class Arrow extends Component {
   constructor(props) {
     super(props);
-    this.arrowFileName
-    this.text = props.text;
-    this.description = props.description;
-    this.url = props.url;
-    this.state = {
+    const arrowImg = require(`${props.fileName}`);
+    this.arrowState = {
+      backgroundImage: `url("${arrowImg}")`,
       marginLeft: props.ml,
-      marginTop: props.mt
+      marginTop: props.mt,
+      width: props.w,
+      height:  props.h,
     };
   }
 
   render() {
     return (
-      <div onClick={() => this.openPage(this.getURL())} style={this.state} className="card-holder">
-        <div class="card">
-          <div class="card-head">
-            <p class="card-head-text"> {this.name} </p>
-          </div>
-          <div class="card-body">
-            <p class="card-body-text"> {this.description} </p>
-          </div>
-        </div>
-      </div>
+      <div style={this.arrowState} class="arrow"></div>
     );
   }
 }
 
-export default Step;
+export default Arrow;

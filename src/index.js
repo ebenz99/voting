@@ -6,6 +6,8 @@ import './arrows.css';
 
 import StepMatrix from './components/StepMatrix/StepMatrix';
 import Step from './components/Step/Step';
+import Arrow from './components/Arrow/Arrow';
+
 import Header from './components/Header/Header';
 import * as serviceWorker from './serviceWorker';
 import './fonts/Roboto-Regular.ttf';
@@ -18,6 +20,9 @@ import './images/yesArrow.svg';
 import './images/inPersonArrow.svg';
 import './images/absenteeArrow.svg';
 import './images/sentArrow.svg';
+
+
+// require('./components/Arrow/images/yesArrow.svg');
 
 
 ReactDOM.render(
@@ -38,8 +43,11 @@ ReactDOM.render(
     <div style={{marginTop:"80vh", marginLeft:"23vw"}} class ='resp'>Absentee</div>
     <div style={{marginTop:"80vh", marginLeft:"66vw"}} class ='resp'>In-person</div>
     <div class="noArrow"></div>
+    <div class="firstArrow"></div>
+
+    <Arrow fileName="./images/yesArrow.svg" w="100vw" h="16vh" ml="33vw" mt="33vh"/>
+
     <Step name={'Register'} description={'Good news--you can register online and it takes less than 5 mins! (Deadline is October 4th)'} url='https://google.com' ml='20vw' mt='9vh'/>
-    <div class="yesArrow"></div>
     <Step name={'How do you want to vote?'} description={'Most people choose to vote either by mail (absentee) on in person. For more information on voting options, click here.'} url='https://https://www.scvotes.gov/' ml='30vw' mt='15vh'/>
     <div class="registeredArrow"></div>
     <div class="absenteeArrow"></div>

@@ -1,3 +1,5 @@
+// DEPRACATED Component
+
 import React, { Component } from 'react';
 import './StepMatrix.css';
 import Step from '../Step/Step';
