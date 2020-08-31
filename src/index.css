@@ -2,6 +2,10 @@
   font-family: 'Roboto';
   src: local('Roboto'), url(./fonts/Roboto-Regular.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Roboto-bold';
+  src: local('Roboto-bold'), url(./fonts/Roboto-Bold.ttf) format('truetype');
+}
 
 html {
   scroll-behavior: smooth;
@@ -25,29 +29,6 @@ body {
   background-size: cover;
 }
 
-.firstArrow {
-  width: 10vh;
-  height: 100%;
-  background-image: url("images/firstArrow.svg");
-  background-repeat: no-repeat;
-  margin-left: 7vw;
-  margin-right: 0%;
-  margin-bottom: 0%;
-  position: absolute;
-}
-
-.noArrow {
-  width: 20vw;
-  height: 10vh;
-  background-image: url("images/noArrow.svg");
-  background-repeat: no-repeat;
-  margin-left: 43vw;
-  margin-top: 18vh;
-  margin-right: 0%;
-  margin-bottom: 0%;
-  position: absolute;
-}
-
 svg:hover {
   fill: #cccccc;
   cursor: pointer;
@@ -65,14 +46,8 @@ svg {
   transition: .2s;
 }
 
-/* @media only screen and (max-device-width: 1366px) {
-  .splash {
-    background-attachment: scroll;
-  }
-} */
-
 #root {
-  height: 100vh;
+  height: 200vh;
   background-color: #bbbbbb;
   position: relative;
   z-index: 2;
@@ -83,6 +58,15 @@ svg {
   padding-top: 7vh;
   text-align: center;
   color: white;
+}
+
+.resp {
+  text-align: center;
+  color: white;
+  position: absolute;
+  font-size: 4vh;
+  z-index: 5;
+  font-family: 'Roboto-bold';
 }
 
 .bottom {

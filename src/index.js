@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import './index.css';
+import './arrows.css';
+
 import StepMatrix from './components/StepMatrix/StepMatrix';
 import Step from './components/Step/Step';
 import Header from './components/Header/Header';
 import * as serviceWorker from './serviceWorker';
 import './fonts/Roboto-Regular.ttf';
+import './fonts/Roboto-Bold.ttf';
 import './images/scflag.svg';
-import './images/whiteArrow.svg';
+
+import './images/firstArrow.svg';
+import './images/noArrow.svg';
+import './images/yesArrow.svg';
 
 
 ReactDOM.render(
@@ -23,8 +30,10 @@ ReactDOM.render(
     <h1 id="step-heading">How to Vote</h1>
     <div class="firstArrow"></div>
     <Step name={'hi'} description={'testing'} url='https://google.com' ml='13vw' mt='7vh'/>
+    <div style={{marginTop:"12vh", marginLeft:"51vw"}} class ='resp'>No</div>
     <div class="noArrow"></div>
     <Step name={'hi'} description={'testing'} url='https://google.com' ml='20vw' mt='9vh'/>
+    <div class="yesArrow"></div>
   </React.StrictMode>,
   document.getElementById('root')
 );
