@@ -73,7 +73,7 @@ svg {
 }
 
 #root {
-  background-color: #bbbbbb;
+  background-color: #444444;
   position: relative;
   z-index: 2;
   width: 100%;
@@ -108,7 +108,7 @@ svg {
 
 .bottom {
   height: 9vh;
-  background-color: #dddddd;
+  background-color: #999999;
   width: 100%;
   position: absolute;
 }
@@ -117,6 +117,6 @@ svg {
   font-size: 2vh;
   font-family: sans-serif;
   text-align: center;
-  color: #555555;
+  color: #333333;
   margin-top: 1vh;
 }
