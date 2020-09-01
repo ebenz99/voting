@@ -1,6 +1,8 @@
 # Voting
 
-## React Directives
+Live at [votesc.xyz](https://votesc.xyz).
+
+## Development
 
 ### `npm start`
 
