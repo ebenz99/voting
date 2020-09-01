@@ -15,7 +15,7 @@ class Step extends Component {
     }
     else {
       this.state.marginLeft= props.ml;
-      this.state.marginTop= props.mt;  
+      this.state.marginTop= props.mt;
     }
   }
 
@@ -31,7 +31,6 @@ class Step extends Component {
   }
 
   render() {
-    const isDesktop = this.state.isDesktop;
     return (
       <div onClick={() => this.openPage(this.getURL())} style={this.state} className="card-holder">
         <div class="card">

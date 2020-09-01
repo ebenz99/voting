@@ -1,4 +1,5 @@
 // DEPRACATED Component
+// No longer in use, but of value
 
 import React, { Component } from 'react';
 import './StepMatrix.css';

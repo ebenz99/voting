@@ -1,0 +1,8 @@
+.resp {
+  text-align: center;
+  color: white;
+  position: absolute;
+  font-size: 4vh;
+  z-index: 5;
+  font-family: 'Roboto-bold';
+}
